@@ -17,7 +17,7 @@ sap.ui.define([
             });
 
             const sPath = sap.ui.require.toUrl("ui5/walkthrough/localService");
-            oMockServer.simulate(sPath + "/metadata.xml", sPath + "/mockData");
+            oMockServer.simulate(sPath + "/metadata.xml", sPath + "/mockdata");
 
             oMockServer.start();
         }
